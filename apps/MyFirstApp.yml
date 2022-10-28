@@ -1,0 +1,38 @@
+version: 43.0.9
+pageUuid: 0c7beca4-56dd-11ed-84fc-2340382f2e0c
+appTemplate:
+  plugins:
+    ordered:
+      - query1:
+          pluginTemplate:
+            id: query1
+            type: datasource
+            subtype: RESTQuery
+            resourceName: REST-WithoutResource
+            template:
+              queryRefreshTime: ''
+              body: ''
+              queryDisabledMessage: ''
+              successMessage: ''
+              queryDisabled: ''
+              resourceNameOverride: ''
+              runWhenModelUpdates: true
+              headers: ''
+              query: https://httpbin.org/get
+              privateParams: []
+              data: null
+              showSuccessToaster: true
+              cookies: ''
+              confirmationMessage: null
+              watchedParams: []
+              timestamp: 0
+              runWhenPageLoads: false
+              queryTimeout: '10001'
+              requireConfirmation: false
+              type: GET
+              bodyType: json
+              queryThrottleTime: '750'
+            createdAt: 2022-10-28T16:24:51.531Z
+  rootScreen: null
+  version: 2.100.8
+  markdownLinkBehavior: auto
