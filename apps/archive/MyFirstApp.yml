@@ -1,5 +1,5 @@
 version: 43.0.9
-pageUuid: 5a89a8c2-5562-11ed-81bf-0f75089a6dd7
+pageUuid: 0c7beca4-56dd-11ed-84fc-2340382f2e0c
 appTemplate:
   plugins:
     ordered:
@@ -82,7 +82,7 @@ appTemplate:
                 - queryThrottleTime: '750'
                 - updateSetValueDynamically: false
                 - notificationDuration: ''
-            createdAt: 2022-10-26T19:14:03.219Z
+            createdAt: 2022-10-28T16:24:51.531Z
       - table1:
           pluginTemplate:
             id: table1
@@ -258,11 +258,10 @@ appTemplate:
               ordered: []
             position2:
               position2:
-                row: 0.8
-                col: 7
+                col: 5
                 height: 8
-                width: 5
-            createdAt: 2022-10-26T20:47:08.007Z
+                width: 7
+            createdAt: 2022-10-28T16:25:07.078Z
   rootScreen: null
   version: 2.100.8
   markdownLinkBehavior: auto
